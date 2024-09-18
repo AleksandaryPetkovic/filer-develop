@@ -1,0 +1,8 @@
+{
+    "package-name": "django-filer",
+    "installed-apps": [
+        "filer",
+        "easy_thumbnails",
+        "polymorphic"
+    ]
+}

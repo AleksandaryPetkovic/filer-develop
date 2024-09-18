@@ -1,0 +1,71 @@
+// #############################################################################
+// SETTINGS
+
+$speed-base: 200ms;
+
+// COLORS
+$white: var(--dca-white, var(--body-bg, #fff));
+$black: var(--dca-black, var(--body-fg, #000));
+$shadow-black: #000;
+
+$color-primary: var(--dca-primary, var(--primary, #0bf));
+// $color-primary-light: #f1faff;
+$color-success: #693;
+$color-danger: #f00;
+$color-warning: #c93;
+
+// COLORS gray
+$gray:            var(--dca-gray, var(--body-quiet-color, #666)); // #666;
+$gray-lightest:   var(--dca-gray-lightest, var(--darkened-bg, #f2f2f2)); // #f2f2f2
+$gray-lighter:    var(--dca-gray-lighter, var(--border-color, #ddd)); // #ddd
+$gray-light:      var(--dca-gray-light, var(--body-quiet-color, #999)); // #999
+$gray-darker:     var(--dca-gray-darker, #454545); // #454545
+$gray-darkest:    var(--dca-gray-darkest, var(--body-fg, #333)); // #333
+
+$gray-super-light: var(--dca-gray-super-lightest, var(--darkened-bg, #f7f7f7));
+$gray-dropzone: $gray-lightest;
+
+$hover-bg: $gray-lightest;
+
+//##############################################################################
+// BASE Variables
+$font-size-small: 12px;
+$font-size-normal: 14px;
+$font-size-large: 16px;
+
+$icon-size: 16px;
+
+$line-height-normal: 20px;
+
+$border-radius-base: 3px;
+$border-radius-normal: 5px;
+
+$padding-base: 3px;
+$padding-normal: 10px;
+$padding-large: 20px;
+
+$screen-mobile: 320px;
+$screen-tablet: 720px;
+$screen-desktop: 975px;
+
+$screen-tablet-filer: 810px;
+
+//##############################################################################
+// BUTTONS
+
+$btn-border-radius-base: $border-radius-base;
+$btn-active-shadow: inset 0 3px 5px rgba($black, 0.125);
+
+$btn-default-color: var(--dca-gray-light, var(--button-fg, #999));
+$btn-default-bgcolor: var(--dca-white, var(--button-bg, #fff));
+$btn-default-border: var(--dca-gray-lighter, transparent);
+
+$btn-action-color: var(--dca-white, var(--button-fg, #fff));
+$btn-action-bgcolor: $color-primary;
+$btn-action-border: $color-primary;
+
+//##############################################################################
+// #SHADOW
+
+$base-box-shadow: 0 0 5px 0 rgba($shadow-black, 0.2);
+$dropdown-shadow: 0 1px 10px rgba($shadow-black, 0.25);
